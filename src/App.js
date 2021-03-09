@@ -1,7 +1,12 @@
+import Home from "./Home";
+
 export default function App() {
 	return (
-		<div className='App'>
-			<h1>Hello World</h1>
+		<div className='bg-gray'>
+			{
+				// Nav and routing inside here, as well as Home.js component
+			}
+			<Home />
 		</div>
 	);
 }
