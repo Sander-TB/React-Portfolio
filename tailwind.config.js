@@ -12,6 +12,7 @@ module.exports = {
 				lightest: "#b1abab",
 				light: "#525252",
 				DEFAULT: "#333333",
+				darker: "#1F1F1F",
 			},
 			black: {
 				DEFAULT: "#020202",
