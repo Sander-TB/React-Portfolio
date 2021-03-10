@@ -8,7 +8,6 @@ import "../../css/Navbar.css";
 
 export default function Navigation() {
 	const [sidebar, setSidebar] = useState(false);
-
 	const showSidebar = () => setSidebar(!sidebar);
 
 	return (
