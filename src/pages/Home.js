@@ -75,3 +75,5 @@ export default function Home() {
 		</div>
 	);
 }
+
+// TODO: Have one bg shape of each color: blue and orange

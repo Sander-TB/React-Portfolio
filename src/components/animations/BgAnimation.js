@@ -1,4 +1,4 @@
-import Triangle from "../../images/triangle.svg";
+import Triangle from "../../images/triangle2.svg";
 import Oval from "../../images/oval.svg";
 import Rectangle from "../../images/rect2.svg";
 
