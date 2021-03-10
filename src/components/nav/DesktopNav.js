@@ -3,7 +3,7 @@ import Logo from "../../images/logo.svg";
 
 export default function DesktopNav() {
 	return (
-		<header className='flex flex-row w-full'>
+		<header className='flex flex-row w-full z-50'>
 			<NavLink exact={true} to='/' className='focus:outline-none'>
 				<img src={Logo} alt='logo' className='w-44  bg-black p-7' />
 			</NavLink>
