@@ -2,6 +2,10 @@ module.exports = {
 	purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
+		fontFamily: {
+			sans: ['"Forma DJR Banner"', "sans-serif"],
+			mono: ['"IBM Plex Mono"'],
+		},
 		colors: {
 			teal: {
 				light: "#00FFE5",
@@ -12,6 +16,7 @@ module.exports = {
 				lightest: "#b1abab",
 				light: "#525252",
 				DEFAULT: "#333333",
+				darker: "#1F1F1F",
 			},
 			black: {
 				DEFAULT: "#020202",
