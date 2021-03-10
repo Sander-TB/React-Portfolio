@@ -2,6 +2,10 @@ module.exports = {
 	purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
+		fontFamily: {
+			sans: ['"Forma DJR Banner"', "sans-serif"],
+			mono: ['"IBM Plex Mono"'],
+		},
 		colors: {
 			teal: {
 				light: "#00FFE5",
