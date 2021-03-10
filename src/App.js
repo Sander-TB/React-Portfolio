@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import BgAnimation from "./components/animations/BgAnimation";
 import Navigation from "./components/nav/Navigation";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -9,6 +10,7 @@ import Contact from "./pages/Contact";
 export default function App() {
 	return (
 		<div className='bg-gray'>
+			<BgAnimation />
 			<Router>
 				{/*If mobile display mobile nav, else display navigation*/}
 				<Navigation />
