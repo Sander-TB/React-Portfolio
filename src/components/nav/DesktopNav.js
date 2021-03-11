@@ -12,7 +12,7 @@ export default function DesktopNav() {
 					exact={true}
 					activeClassName='text-teal'
 					to='/'
-					className='transition transform duration-500 ease-in-out hover:text-white hover:scale-105'>
+					className='transition transform duration-500 ease-in-out hover:text-white hover:scale-105 cursor-pointer'>
 					Home
 				</NavLink>
 				<NavLink
