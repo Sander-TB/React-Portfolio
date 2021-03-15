@@ -1,4 +1,4 @@
-import Heading from "../components/layout/Heading";
+import { Heading } from "../components/layout/Headings";
 
 export default function Portfolio() {
 	return (

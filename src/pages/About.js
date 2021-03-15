@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import Heading from "../components/layout/Heading";
+import { Heading } from "../components/layout/Headings";
 import { OrangeButton } from "../components/layout/Buttons";
 import { FaHtml5, FaCss3Alt, FaSass, FaFigma, FaGithub } from "react-icons/fa";
 import {
