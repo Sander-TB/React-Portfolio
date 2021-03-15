@@ -14,6 +14,8 @@ import {
 } from "react-icons/si";
 import { BsTerminalFill } from "react-icons/bs";
 
+// TODO: add html tags around elements on the page
+
 export default function About() {
 	return (
 		<>
