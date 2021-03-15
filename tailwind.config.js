@@ -28,7 +28,11 @@ module.exports = {
 				DEFAULT: "#ffffff",
 			},
 		},
-		extend: {},
+		extend: {
+			width: {
+				ch: "50ch",
+			},
+		},
 	},
 	variants: {
 		extend: {},
