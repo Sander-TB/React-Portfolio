@@ -4,10 +4,28 @@ import {
 	FaTwitterSquare,
 	FaInstagram,
 } from "react-icons/fa";
+import { SiTailwindcss, SiNextDotJs } from "react-icons/si";
 
 export default function Footer() {
 	return (
-		<footer>
+		<footer className='z-50 bg-gray-darker'>
+			<div>Sander Trollebø Byrkjeland</div>
+			<div>
+				<p>Made with:</p>
+				<p>
+					<span>
+						<SiTailwindcss />
+					</span>
+					Tailwind
+				</p>
+				<p>
+					<span>
+						<SiNextDotJs />
+					</span>
+					Next.js
+				</p>
+			</div>
+			<div></div>
 			<a
 				href='https://www.instagram.com/sandertrolleboe/'
 				target='_blank'
